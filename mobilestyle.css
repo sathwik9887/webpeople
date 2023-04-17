@@ -1,0 +1,348 @@
+@font-face {
+    font-family: Avenir;
+    src: url(../assets/Avenir-Fonts/Avenir-Heavy.woff);
+}
+@font-face {
+    font-family: AvenirBold;
+    src: url(../assets/Avenir-Fonts/Avenir-Black.woff);
+}
+
+@media screen and (max-width:750px)
+{
+    
+html{
+    scroll-behavior: smooth;
+}    
+body 
+{
+    margin: 0;
+    font-family: Avenir;
+    font-size: 16px;
+}
+.head
+{
+    margin: 10px 20px;
+}
+.navbar
+{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.logo img
+{
+    height: 20px;
+}
+.navbtns
+{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 8px;
+    align-items: center;
+}
+.navbtns p
+{
+    margin: 0px 5px; 
+}
+.navbtns a 
+{
+    text-decoration: none;
+    color: black;
+}
+.welcome
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+.msg h1 
+{
+    font-family: AvenirBold;
+    font-size: 16px;
+    margin: 0px 0px;
+    padding-right: 10px;
+}
+.msg p 
+{
+    font-size: 5px;
+}
+.welcome .pic img 
+{
+    height: 150px;
+}
+button 
+{
+    background: yellow;
+    color: black;
+    font-family: Avenir;
+    border: none;
+    height: 20px;
+    width: 70px;
+    font-size: 6px;
+}
+
+.showcase h1
+{
+    font-size: 18px;
+}
+.showcase .box
+{
+    height:36%;
+    width:auto;
+    background: yellow;
+    margin-top: 8px;
+    display:grid;
+    text-align: center;
+    
+}
+.box h3
+{
+    font-family: AvenirBold;
+    font-size: 12px;
+    
+}
+.box p
+{
+  
+    font-size: 6px;
+}
+.showcase img 
+{
+    width: 100%;
+}
+.showcase .row
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0px;
+}
+.shw-btn
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.column
+ {
+    flex: 25%;
+    padding: 0 4.5px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+
+  .brands
+  {
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .brands img 
+  {
+    height: 30px;
+  }
+
+  .about
+  {
+    margin-top: 10%;
+  }
+  .about h1 
+  {
+    font-size: 18px;
+  }
+  .about>p 
+  {
+    font-size: 6px;
+    padding-right: 40px;
+    width: 160px;
+  }
+  .imgT p 
+  {
+    font-size: 6px;
+  }
+  .litAbs
+  {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 0%;
+  }
+  .litAbs img 
+  {
+    height: 90px;
+    margin: 0%;
+
+  }
+  .litAbs .little 
+  {
+    margin-left: 10px;
+    display: block;
+    line-height: 7px;
+  }
+
+  .container
+  {
+    position: relative;
+    margin: 10px 10px 0px 0px;
+    width: fit-content;
+    text-align: center;
+  }
+  .container .imgT 
+  {
+    position: absolute;
+    background-color:yellow;
+    width: 100%;
+    height: 30px;
+    color: black;
+    line-height: 1px;
+    bottom: -22px;
+    margin: 0%;
+    text-align: center;
+  }
+  .container h4
+  {
+    font-size: 6px;
+    margin-top: 10px;
+  }
+  .container p 
+  {
+    font-size: 4px;
+    color: white;
+  }
+  .little p 
+  {
+    font-size: 6px;
+  }
+  .little h5 
+  {
+    font-size: 8px;
+  }
+  .contact
+  {
+    margin-top: 20%;
+  }
+
+  .contact h1
+  {
+    font-size: 18px;
+  }
+  .contact p 
+  {
+    font-size: 6px;
+    width: 190px;
+  }
+
+  .contact img 
+  {
+    height: 120px;
+    margin-left: 20px;
+  }
+  .send 
+  {
+    display: flex;
+    width: 100px;
+  }
+  .send h2
+  {
+    font-size: 10px;
+  }
+  .inputs
+  {
+    width: 150px;
+    margin-top: 0%;
+    
+  }
+  .send input 
+  {
+    font-family: Avenir;
+    width: 100%;
+    height: 10px;
+    margin-bottom: 2px;
+    border: none;
+    border-radius: 2px;
+    background: #e6e6e6;
+    display: flex;
+    align-items: top;
+    justify-content: left;
+  }
+  .send input::placeholder
+  {
+    font-size: 5px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-family: Avenir;
+  }
+  .send textarea 
+  {
+    font-family: Avenir;
+    width: 100%;
+    border: none;
+    border-radius: 2px;
+    background: #e6e6e6;
+  }
+  .send textarea::placeholder
+  {
+    font-family: Avenir;
+    font-size: 6px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }
+
+  .icons
+  {
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .icons img 
+  {
+    height: 20px;
+    margin-inline: 5px;
+  }
+  .footer
+  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #1b1b1b;
+    margin-top: 10px;
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .footer p 
+  {
+    font-size: 5px;
+    color: white;
+  }
+  .rightfooter a 
+  {
+    text-decoration: none;
+    color: white;
+  }
+  .rightfooter, .leftfooter
+  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .leftfooter img 
+  {
+    height: 30px;
+  }
+  .rightfooter img 
+  {
+    height: 8px;
+    margin-right: 3px;
+  }
+}
